@@ -1,0 +1,20 @@
+{
+    "name": "rimuru-theme",
+    "displayName": "Rimuru Theme",
+    "description": "A Rimuru Tempest inspired theme with magical effects",
+    "version": "1.0.0",
+    "publisher": "your-username",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rimuru Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/rimuru-color-theme.json"
+            }
+        ]
+    }
+}

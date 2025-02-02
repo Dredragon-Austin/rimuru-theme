@@ -1,0 +1,45 @@
+{
+    "name": "Rimuru Theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1A1B26",
+        "editor.foreground": "#F8F9FF",
+        "activityBarBadge.background": "#005d88",
+        "sideBarTitle.foreground": "#024969",
+        "focusBorder": "#FFD700",
+        "progressBar.background": "#194357",
+        
+        // Unique feature: Magical Ripple Effect
+        "editorCursor.background": "#87b8cf",
+        "editorCursor.foreground": "#35728f",
+        "editor.lineHighlightBackground": "#283457",
+        "editor.lineHighlightBorder": "#4FC3F733",
+        
+        // Unique feature: Divine Protection Highlights
+        "editor.selectionBackground": "#FFD70033",
+        "editor.selectionHighlightBackground": "#4FC3F733",
+        
+        // Unique feature: Tempest Status Bar
+        "statusBar.background": "#062a3d",
+        "statusBar.noFolderBackground": "#14678d",
+        "statusBar.debuggingBackground": "#FFD700"
+    },
+    "tokenColors": [
+        {
+            "name": "Magic Arts",
+            "scope": ["keyword.control", "storage.type"],
+            "settings": {
+                "foreground": "#4FC3F7",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Divine Skills",
+            "scope": ["entity.name.function", "support.function"],
+            "settings": {
+                "foreground": "#FFD700",
+                "fontStyle": "italic"
+            }
+        }
+    ]
+}
