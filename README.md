@@ -16,7 +16,12 @@ A magical theme inspired by Rimuru Tempest from "That Time I Got Reincarnated as
 
 ## 📦 Installation
 
-### VSCode
-Install from VSCode Marketplace or:
-```bash
-ext install rimuru-theme
+### NVIM
+{
+    'Dredragon-Austin/rimuru-theme',
+    lazy = false,
+    priority = 1000,
+    config = function()
+        require('rimuru').setup()
+    end
+}
